@@ -13,21 +13,30 @@ void setup() {
   // rSwitch.setProtocol(2);
 
   // Set pulse length.
-  // rSwitch.setPulseLength(320);
+  rSwitch.setPulseLength(188);
   
   // Set number of transmission repetitions.
-  // rSwitch.setRepeatTransmit(15);
+  rSwitch.setRepeatTransmit(15);
   
 }
 
 void loop() {
-  // Replace binary code from WL101 to turn ON
-  rSwitch.send("000000000001010100010001");
+
+  rSwitch.send(3570090, 24);
   Serial.println( "Switch On");
-  delay(1000); 
-  // Replace binary code from WL101 to turn OFF
-  rSwitch.send("000000000001010100010100");
+  delay(1000);  
+  rSwitch.send(3570082, 24);
   Serial.println( "Switch OFF");
-  delay(1000); 
+  delay(1000);  
+  
+  // rSwitch.send("001101100111100110101010");
+  // Serial.println( "Switch On");
+  // delay(1000);  
+  // rSwitch.send("001101100111100110100010");
+  // Serial.println( "Switch OFF");
+  // delay(1000); 
+
+
+
   delay(5000);
 }
