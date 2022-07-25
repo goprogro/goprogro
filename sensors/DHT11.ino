@@ -24,5 +24,5 @@ void loop() {
   Serial.println( " Temperature (F): " + String( f ) );
   Serial.println( " Heat index (C): " + String( hic ) );
   Serial.println( " Heat index (F): " + String( hif ) );
-  delay(60000);
+  delay(5000);
 }
