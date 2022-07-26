@@ -1,13 +1,13 @@
 ## RXB6 433Mhz Superheterodyne Wireless Receiver
 
 ## Sensor
-The [RXB6 433Mhz Superheterodyne Wireless Receiver] (https://amzn.to/3yCbnEG) is one of a kind. I have tried sever other 433Mhz receivers and have had little to no success in decoding signals! 
+The [RXB6 433Mhz Superheterodyne Wireless Receiver](https://amzn.to/3yCbnEG) is one of a kind. I have tried sever other 433Mhz receivers and have had little to no success in decoding signals! 
 
 ## Materials Used
- - [Arduino UNO WIFI REV2] (https://amzn.to/3bXp0qw) 
- - [USB Type-B Cable] (https://amzn.to/3yrHfMk) 
- - [Wires Cables] (https://amzn.to/3ykkRnR) 
- - [RXB6 433Mhz Superheterodyne Wireless Receiver] (https://amzn.to/3yCbnEG)
+ - [Arduino UNO WIFI REV2](https://amzn.to/3bXp0qw) 
+ - [USB Type-B Cable](https://amzn.to/3yrHfMk) 
+ - [Wires Cables](https://amzn.to/3ykkRnR) 
+ - [RXB6 433Mhz Superheterodyne Wireless Receiver](https://amzn.to/3yCbnEG)
 
     
 ## Example
