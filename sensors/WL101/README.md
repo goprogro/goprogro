@@ -14,7 +14,5 @@ The [WL101 Receiver](https://amzn.to/3BcHFsR) is part of a kit with the [WL101 R
 ## Example
 - Video To Come
 
-[comment]: <> ([Watch the Video](https://www.goprogro.com/) 
-
 ### Wiring Guide
 [![Alt text](https://goprogro.com/wp-content/uploads/2022/07/uno-wifi-rev2-wl101.png "Title")](https://goprogro.com/code/wl101-superheterodyne-receiver/)

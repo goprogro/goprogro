@@ -13,7 +13,5 @@ The [Keystone Liquid PH Meter] (https://amzn.to/3nIqxDc) uses the same interface
 ## Example
 - Video To Come
 
-[comment]: <> ([Watch the Video](https://www.goprogro.com/) 
-
 ### Wiring Guide
 [![Alt text](https://goprogro.com/wp-content/uploads/2022/07/keystone-ph-meter-arduino-sm.png "Title")](https://goprogro.com/code/liquid-ph-meter/)

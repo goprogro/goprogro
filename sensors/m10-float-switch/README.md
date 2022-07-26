@@ -12,7 +12,5 @@ The [M10 Float Switch] (https://amzn.to/3yjVItt) is another simple on/off switch
 ## Example
 - Video To Come
 
-[comment]: <> ([Watch the Video](https://www.goprogro.com/) 
-
 ### Wiring Guide
 [![Alt text](https://goprogro.com/wp-content/uploads/2022/07/float-switch-Arduino-sm.png "Title")](https://goprogro.com/code/m10-float-switch/)

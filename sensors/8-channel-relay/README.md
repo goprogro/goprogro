@@ -14,7 +14,5 @@
 ### Example
 - Video To Come
 
-[comment]: <> ([Watch the Video](https://www.goprogro.com/) 
-
 #### Wiring Guide
 [![Alt text](https://goprogro.com/wp-content/uploads/2022/07/8-channel-relay-arduino-4-sm.png "Title")](https://goprogro.com/code/8-channel-relay/)

@@ -13,7 +13,5 @@ The DHT11 Temperature Humidity Sensor Module is used to get the humidity and tem
 ## Example
 - Video To Come
 
-[comment]: <> ([Watch the Video](https://www.goprogro.com/) 
-
 ### Wiring Guide
 [![Alt text](https://goprogro.com/wp-content/uploads/2022/07/DHT11-Arduino-sm-2.png "Title")](https://goprogro.com/code/dht11-temperature-humidity-sensor-module/)
