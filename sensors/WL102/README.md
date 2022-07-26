@@ -4,10 +4,10 @@
 The [WL102 / RX500 Transceiver](https://amzn.to/3BcHFsR) is part of a kit with the [WL101 Receiver](https://goprogro.com/code/wl101-superheterodyne-receiver/). Together, you can clone and transmit RF codes on the 433 MHz frequency.
 
 ### Materials Used
- - [Arduino UNO WIFI REV2] (https://amzn.to/3bXp0qw) 
- - [USB Type-B Cable] (https://amzn.to/3yrHfMk) 
- - [Wires Cables] (https://amzn.to/3ykkRnR) 
- - [WL102/RX500] (https://amzn.to/3BcHFsR)
+ - [Arduino UNO WIFI REV2](https://amzn.to/3bXp0qw) 
+ - [USB Type-B Cable](https://amzn.to/3yrHfMk) 
+ - [Wires Cables](https://amzn.to/3ykkRnR) 
+ - [WL102/RX500](https://amzn.to/3BcHFsR)
 
     
 ### Example
