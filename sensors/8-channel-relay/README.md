@@ -5,10 +5,10 @@
 
 
 ### Materials Used
- - [Arduino UNO WIFI REV2] (https://amzn.to/3bXp0qw) 
- - [USB Type-B Cable] (https://amzn.to/3yrHfMk) 
- - [Wires Cables] (https://amzn.to/3ykkRnR) 
- - [8 Channel Relay] (https://amzn.to/3usTEy6) 
+ - [Arduino UNO WIFI REV2](https://amzn.to/3bXp0qw) 
+ - [USB Type-B Cable](https://amzn.to/3yrHfMk) 
+ - [Wires Cables](https://amzn.to/3ykkRnR) 
+ - [8 Channel Relay](https://amzn.to/3usTEy6) 
 
     
 ### Example
