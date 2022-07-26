@@ -1,13 +1,13 @@
 ## Single Relay
 
 ## Sensor
-The [Single Channel Relay] (https://amzn.to/3Bfv2x6) is an advanced switch.
+The [Single Channel Relay](https://amzn.to/3Bfv2x6) is an advanced switch.
 
 ## Materials Used
- - [Arduino UNO WIFI REV2] (https://amzn.to/3bXp0qw) 
- - [USB Type-B Cable] (https://amzn.to/3yrHfMk) 
- - [Wires Cables] (https://amzn.to/3ykkRnR) 
- - [Single Channel Relay] (https://amzn.to/3Bfv2x6)
+ - [Arduino UNO WIFI REV2](https://amzn.to/3bXp0qw) 
+ - [USB Type-B Cable](https://amzn.to/3yrHfMk) 
+ - [Wires Cables](https://amzn.to/3ykkRnR) 
+ - [Single Channel Relay](https://amzn.to/3Bfv2x6)
     
 ## Example
 - Video To Come
