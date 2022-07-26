@@ -5,10 +5,10 @@ The [WL101 Receiver](https://amzn.to/3BcHFsR) is part of a kit with the [WL101 R
 
 
 ## Materials Used
- - [Arduino UNO WIFI REV2] (https://amzn.to/3bXp0qw) 
- - [USB Type-B Cable] (https://amzn.to/3yrHfMk) 
- - [Wires Cables] (https://amzn.to/3ykkRnR) 
- - [WL101] (https://amzn.to/3BcHFsR)
+ - [Arduino UNO WIFI REV2](https://amzn.to/3bXp0qw) 
+ - [USB Type-B Cable](https://amzn.to/3yrHfMk) 
+ - [Wires Cables](https://amzn.to/3ykkRnR) 
+ - [WL101](https://amzn.to/3BcHFsR)
 
     
 ## Example
