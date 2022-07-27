@@ -3,9 +3,11 @@
 ## Sensor
 The [WL101 Receiver](https://amzn.to/3BcHFsR) is part of a kit with the [WL101 Receiver](https://goprogro.com/code/wl101-superheterodyne-receiver/). The receiver allows you to capture the binary and decimal RF signals that are broadcasted by various remote controls.
 
-## output.ino REQUIRED
+## REQUIRED - output.ino 
 In order to parse the results, you will also need to add [output.ino](https://github.com/goprogro/goprogro/blob/main/sensors/output.ino) to your project folder.
 
+## REQUIRED Library
+You will also need to add the RCSwitch project to your library.  You can download it here: https://github.com/sui77/rc-switch
 
 ## Materials Used
  - [Arduino UNO WIFI REV2](https://amzn.to/3bXp0qw) 
