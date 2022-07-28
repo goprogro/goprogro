@@ -21,7 +21,7 @@ void setup() {
 }
 
 void loop() {
-
+  // Set Decimal values here
   rSwitch.send(3570090, 24);
   Serial.println( "Switch On");
   delay(1000);  
@@ -29,6 +29,7 @@ void loop() {
   Serial.println( "Switch OFF");
   delay(1000);  
   
+  // Set Binary values here
   // rSwitch.send("001101100111100110101010");
   // Serial.println( "Switch On");
   // delay(1000);  
