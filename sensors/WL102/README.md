@@ -14,4 +14,4 @@ The [WL102 / RX500 Transceiver](https://amzn.to/3BcHFsR) is part of a kit with t
 - Video To Come
 
 #### Wiring Guide
-[![Alt text](https://goprogro.com/wp-content/uploads/2022/07/uno-wifi-rev2-mx500-sm.png "WL101/102 Kit")](https://goprogro.com/code/wl102-transceiver/)
+[![Alt text](https://goprogro.com/wp-content/uploads/2022/07/uno-wifi-rev2-mx500.png "WL101/102 Kit")](https://goprogro.com/code/wl102-transceiver/)
