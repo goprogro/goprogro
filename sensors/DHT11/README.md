@@ -3,6 +3,9 @@
 ## Sensor
 The DHT11 Temperature Humidity Sensor Module is used to get the humidity and temperature of your growing environment.
 
+## REQUIRED Library
+You will also need to add the DHT library to your project.  You can download it here: https://www.arduino.cc/reference/en/libraries/dht-sensor-library/
+
 ## Materials Used
  - [Arduino UNO WIFI REV2](https://amzn.to/3bXp0qw) 
  - [USB Type-B Cable](https://amzn.to/3yrHfMk) 
