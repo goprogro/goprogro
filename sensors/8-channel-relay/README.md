@@ -15,4 +15,4 @@ The [8 Channel Relay](https://amzn.to/3usTEy6) is a simple switch used to turn t
 - Video To Come
 
 #### Wiring Guide
-[![Alt text](https://goprogro.com/wp-content/uploads/2022/07/8-channel-relay-arduino-4-sm.png "Title")](https://goprogro.com/code/8-channel-relay/)
+[![Alt text](https://goprogro.com/wp-content/uploads/2022/07/8-channel-relay-arduino.png "Title")](https://goprogro.com/code/8-channel-relay/)
