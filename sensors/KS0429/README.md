@@ -13,4 +13,4 @@ The [Keystudio KS0429 TDS Meter] (https://amzn.to/3alkZLN) is a pretty straight 
 - Video To Come
 
 ### Wiring Guide
-[![Alt text](https://goprogro.com/wp-content/uploads/2022/07/KS0429-Arduino-sm-1.png "Title")](https://goprogro.com/code/ks0429-tds-meter/)
+[![Alt text](https://goprogro.com/wp-content/uploads/2022/07/KS0429-Arduino.png "Title")](https://goprogro.com/code/ks0429-tds-meter/)
