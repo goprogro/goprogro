@@ -17,4 +17,4 @@ You will also need to add the DHT library to your project.  You can download it 
 - Video To Come
 
 ### Wiring Guide
-[![Alt text](https://goprogro.com/wp-content/uploads/2022/07/DHT11-Arduino-sm-2.png "Title")](https://goprogro.com/code/dht11-temperature-humidity-sensor-module/)
+[![Alt text](https://goprogro.com/wp-content/uploads/2022/07/DHT11-Arduino-2-1024x576.png "DHT 11 Wiring")](https://goprogro.com/code/dht11-temperature-humidity-sensor-module/)
