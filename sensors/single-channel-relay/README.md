@@ -14,4 +14,4 @@ The [Single Channel Relay](https://amzn.to/3Bfv2x6) is an advanced switch.
 
 
 ### Wiring Guide
-[![Alt text](https://goprogro.com/wp-content/uploads/2022/07/uno-wifi-rev2-single-channel-relay-sm.png "Title")](https://goprogro.com/code/8-channel-relay/)
+[![Alt text](https://goprogro.com/wp-content/uploads/2022/07/uno-wifi-rev2-single-channel-relay.png "Title")](https://goprogro.com/code/8-channel-relay/)
