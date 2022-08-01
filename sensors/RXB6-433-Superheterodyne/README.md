@@ -14,4 +14,4 @@ The [RXB6 433Mhz Superheterodyne Wireless Receiver](https://amzn.to/3yCbnEG) is 
 - Video To Come
 
 ### Wiring Guide
-[![Alt text](https://goprogro.com/wp-content/uploads/2022/07/Superheterodyne-Arduino-sm.png "Title")](https://goprogro.com/code/rxb6-433mhz-superheterodyne-wireless-receiver/)
+[![Alt text](https://goprogro.com/wp-content/uploads/2022/07/Superheterodyne-Arduino.png "Title")](https://goprogro.com/code/rxb6-433mhz-superheterodyne-wireless-receiver/)
