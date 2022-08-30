@@ -21,4 +21,4 @@ This is a simple Ebb & Flow sketch for Arduino.
 [![Alt text](https://goprogro.com/wp-content/uploads/2022/08/splice-extension-cord.png "Power Cord Example")]
 
 ### Completed
-[![Alt text](https://goprogro.com/wp-content/uploads/2022/08/TimedEbbAndFlow.png "Completed Project")]
+[![Alt text](https://goprogro.com/wp-content/uploads/2022/08/20220826_082402-scaled.jpg "Completed Project")]
