@@ -7,9 +7,10 @@ int pump_drain = 13; // pump from control tank to reservoir - brown
 // switches
 int switch_full = 7; // Switch engages when control tank is filled   
 int switch_empty = 8; // Switch disengages when control tank is empty
+int switch_cutoff = 4; // If switch engages, water is going to overflow
 
 // int mTime, mInc, iLoopCount, iLastTime, ;
-unsigned long iStartMin = 300; 
+unsigned long iStartMin = 240; 
 unsigned long iSubMin = .25;
 
 unsigned long iStartUp = 0;
@@ -18,7 +19,8 @@ unsigned long iCycleCount = 0;
 
 unsigned long iCurrentMillis = 0;
 unsigned long iNext = 0;
-unsigned long iDelay = 50000L;
+unsigned long iDelay = 60000L;
+unsigned long iFillCheckDelay = 30000L;
 unsigned long mUntil = 0;
 
 unsigned long iMinute = 60000L;
@@ -28,6 +30,8 @@ enum eStatus {
 };
 
 eStatus currentStatus = Off;
+bool bFilled = false;
+bool bEmpty = true;
 
 void setup() {
   Serial.begin(9600); 
@@ -40,15 +44,6 @@ void setup() {
   iDelay = 5000L;
 }
 
-void floop() {
-  iCurrentMillis = millis();
-  Serial.println( "iCurrentMillis: " + String(iCurrentMillis));
-  Serial.println( "currentStatus: " + String(currentStatus));
-  if( iNext == 0 || iNext >= iCurrentMillis ) {
-    Serial.println( "iNext: " + String( iNext ) );
-  }
-}
-
 void loop() {
   iCurrentMillis = millis();
   Serial.println( "loop: " + String(iCurrentMillis));
@@ -57,9 +52,6 @@ void loop() {
   Serial.println( "iNext == 0: " + String(ba));
   bool bb = iNext >= iCurrentMillis;
   Serial.println( "iNext >= iCurrentMillis: " + String(bb));
-  // bool bc = currentStatus == Off;
-  // Serial.println( "currentStatus == Off: " + String(bc));
-  
   Serial.println( "iNext: " + String(iNext));
   if( iNext == 0 || iNext <= iCurrentMillis ) {
     if( currentStatus == Off ) {
@@ -76,8 +68,14 @@ void loop() {
     if(digitalRead(switch_full) == LOW ) { // if switch_full is ON
       // Turn off pump_fill
       digitalWrite( pump_fill, LOW );
-      // fill_time = time(0);
-      DoDrain();    
+      DoDrain();
+      // if( isFull() ) {
+      //   DoDrain();
+      // }
+      // else {
+      //   digitalWrite( pump_fill, HIGH );
+      //   iDelay = 1000;
+      // }
     }
   }
   if( currentStatus == Drain ) {
@@ -86,9 +84,16 @@ void loop() {
     if( digitalRead(switch_empty) == HIGH ) { // if switch_empty is OFF
       // control tank is empty, turn pump off
       digitalWrite(pump_drain, LOW );
-      currentStatus = Off;
-      iNext = iCurrentMillis + ( ( iStartMin - iLoopCount ) * iMinute ) ;
-      Serial.println("iCurrentMillis: " + String( iCurrentMillis ) + " || iNext: " + String(iNext));
+      if( isEmpty()) {
+        currentStatus = Off;
+        iNext = iCurrentMillis + ( ( iStartMin - iLoopCount ) * iMinute ) ;
+        iDelay = 30000L;//( ( iStartMin - iLoopCount ) * iMinute );
+        Serial.println("iCurrentMillis: " + String( iCurrentMillis ) + " || iNext: " + String(iNext));
+      }
+      else {
+        digitalWrite( pump_drain, HIGH );
+        iDelay = 1000;
+      }
   // bool bca = currentStatus == Off;
   // Serial.println( "currentStatus == Off: " + String(bca));
   //     int iAddMinutes = iStartMin - iLoopCount;
@@ -102,7 +107,6 @@ void loop() {
   //     Serial.println("iAddMsSecs: " + String(iAddMsSecs));
   //     iNext = mills + iAddMsSecs;
   //     Serial.println("SET iNext: " + String(iNext));
-      iDelay = 30000L;//( ( iStartMin - iLoopCount ) * iMinute );
       // if( iStartMin > 100) {
       //   if( iDelay < (2L * 60L * iMinute)) {
       //     iDelay = 2L * 60L * iMinute;
@@ -117,6 +121,35 @@ void loop() {
   // }
   Serial.println( "Time: " + String(iCurrentMillis) + " || iDelay: " + String(iDelay) );
   delay(iDelay);
+}
+
+int isFullCheck = 0;
+bool isFull() {
+  if( isFullCheck == 3 ) return true;
+  bool result = true;
+  Serial.println( "Run isFull");
+  delay( iFillCheckDelay ); // wait `iFillCheckDelay` ms to check if the float switch has fallen back down
+  Serial.println( "digitalRead(switch_full): " + (digitalRead(switch_full)));
+  if( digitalRead(switch_full) == HIGH ) {
+    result = false;
+  }
+  isFullCheck++;
+  return result;
+}
+
+int isEmptyCheck = 0;
+bool isEmpty() {
+  if( isEmptyCheck == 3 ) return true;
+  bool result = true;
+  Serial.println( "Run isEmpty");
+  delay( iFillCheckDelay ); // wait `iFillCheckDelay` ms to check if the float switch has fallen back down
+  Serial.println( "digitalRead(switch_empty): " + (digitalRead(switch_empty)));
+  if( digitalRead(switch_empty) == LOW ) {
+    result = false;
+  }
+  isEmptyCheck++;
+  return result;
+
 }
 
 void DoFill() {
